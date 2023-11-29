@@ -1,0 +1,107 @@
+.highly{
+     display: flex;
+}
+.highly .left3{
+    width: 40%;
+height: 666px;
+background: #F0F1F3;
+
+}
+.highly .left3 .image3{
+background: url("../../../public/images/highly.png");
+width: 1000px;
+height: 602px;
+object-fit:fill;
+z-index: 999;
+position: relative;
+top: 64px;
+right: 180px;
+
+
+}
+.highly .middle3{
+    width: 2px;
+height: 466px;
+background: #424E60;
+position: relative;
+top: 100px;
+left: 220px;
+}
+.highly .right3{
+    width: 60%;
+    height: 666px;
+    background: #132238;
+    z-index: -11111;
+    display: flex;
+   
+
+}
+.highly .right3 .content3{
+    color: #FFF;
+    font-family: JetBrains Mono;
+    position: relative;
+    top: 70px;
+    left: 300px;
+ 
+}
+.highly .right3 .content3 p:nth-child(1){
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+margin-bottom: 16px;
+}
+.highly .right3 .content3 p:nth-child(2){
+    color: #87909D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+   
+
+.highly .right3 .content3 .name3{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.highly .right3 .content3 .name3 .profile3{
+    background: url("../../../public/images/highly2.png");
+    width: 50px;
+height: 50px;
+}
+.highly .right3 .content3 .name3 .tile3 p:first-child{
+    color: #697484;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.highly .right3 .content3 .name3 .tile3 p:last-child{
+    color: #FFF;
+font-size: 16px;
+font-weight: 500;
+margin-top: 0;
+}
+.highly .right3 .content3 .diverder3{
+    width: 400px;
+height: 1px;
+background: #2B384C;
+margin-top: 32px;
+margin-bottom:32px;
+}
+.highly .right3 .content3 .bootom .head3 {
+display: flex;
+gap: 8px;
+}
+.highly .right3 .content3 .bootom .head3 .bootomhead3{
+    color:#FFF;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 12px;
+
+}
+.highly .right3 .content3 .bootom .bootomsub3{
+    color: #87909D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}

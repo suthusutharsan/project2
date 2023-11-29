@@ -1,0 +1,73 @@
+.latest{
+    color: #132238;
+/* Mono/Heading/01, 700 */
+font-family: JetBrains Mono;
+background: #F0F1F3;
+width: 100%;
+height: 472px;
+padding: 100px 80px;
+
+}
+.latest .top5 p:first-child{
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.latest .top5 .divder5{
+    width: 200px;
+height: 1px;
+opacity: 0.6;
+background: #C3C7CE;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.latest .top5 p:last-child{
+    color: #556070;
+font-size: 16px;
+font-weight: 400;
+
+}
+.latest .bootom5 .cards5{
+    display: flex;
+    gap: 24px;
+}
+.latest .bootom5 .cards5 .card5{
+    width: 500px;
+    height: 144px;
+    padding: 32px;
+    background-color: white;
+}
+.latest .bootom5 .cards5 .card5 .top5{
+    display: flex;
+    gap: 24px;
+    margin-bottom:20px;
+}
+.latest .bootom5 .cards5 .card5 .top5 .date5{
+    display: flex;
+    align-items: center;
+}
+.latest .bootom5 .cards5 .card5 .top5 .date5 p{
+    color: #424E60;
+font-size: 14px;
+font-weight: 400;
+}
+.latest .bootom5 .cards5 .card5 .top5 .comment5{
+    display: flex;
+    align-items: center;
+}
+.latest .bootom5 .cards5 .card5 .top5 .comment5 p{
+    color: #424E60;
+font-size: 14px;
+font-weight: 400;
+}
+.latest .bootom5 .cards5 .card5 .middle5 p{
+    color: #132238;
+font-size: 20px;
+font-weight: 600;
+
+}
+.latest .bootom5 .cards5 .card5 .bottom5{
+    color: #556070;
+font-size: 14px;
+font-weight: 400;
+}

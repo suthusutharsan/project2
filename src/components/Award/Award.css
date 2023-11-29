@@ -1,0 +1,97 @@
+.award{
+    color: #132238;
+    font-family: JetBrains Mono;
+}
+.award .top2 p:first-child{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.award .top2 p:last-child{
+    color: #556070;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+.award .bottom2{
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid black; */
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.award .bottom2 .right2{
+    width: 450px;
+    /* border: 2px solid black; */
+}
+.award .bottom2 .right2 .cards2 .card2diveder{
+    width: 450px;
+height: 1px;
+background: #E6E8EB;
+}
+
+.award .bottom2 .right2 .cards2 .card2{
+   display: flex;
+gap: 24px;
+margin-top: 40px;
+margin-bottom: 40px;
+align-items: flex-start;
+}
+.award .bottom2 .right2 .cards2 .card2 .card2r p:first-child{
+    color: #1777E5;
+font-size: 14px;
+font-weight: 600;
+margin: 0;
+
+}
+.award .bottom2 .right2 .cards2 .card2 .card2r p:last-child{
+    color: #697484;
+font-size: 12px;
+font-weight: 400;
+}
+
+.award .bottom2 .right2 .cards2 .card2 .card2l p:first-child{
+color: #132238;
+font-size: 20px;
+font-weight: 600;
+margin-top: 0;
+margin-bottom: 12px;
+}
+.award .bottom2 .right2 .cards2 .card2 .card2l p:last-child{
+    color: #697484;
+    font-size: 14px;
+    font-weight: 400;
+}
+.award .bottom2 .left2{
+    /* border: 2px solid black; */
+    /* width: 648px;
+    height: 576px; */
+}
+.award .bottom2 .left2 .rightsa2{
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+}
+
+.award .bottom2 .left2 .rightsa2 .righta2:first-child{
+    background: url("../../../public/images/award1.png");
+    width: 400px;
+    height: 350px;
+background-repeat: no-repeat;
+}
+
+.award .bottom2 .left2 .rightsa2 .righta2:last-child{
+    background: url("../../../public/images/award2.png");
+    width: 400px;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.award .bottom2 .left2 .leftsa2{
+    background: url("../../../public/images/award3.png");
+    width: 400px;
+    height: 350px;
+    background-repeat: no-repeat;
+}

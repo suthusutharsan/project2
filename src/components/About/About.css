@@ -1,0 +1,15 @@
+.container{
+    width: 1320px;
+    height:272PX;
+}
+.container .right{
+    width: 1320px;
+    height:272PX;
+}
+.container .right .R{
+   /* background-color: blue ; */
+    background: url("../../../public/images/Image2.png");
+
+    width: 200px;
+    height: 272px;
+}

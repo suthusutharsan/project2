@@ -1,0 +1,94 @@
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} */
+.container1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+width: 100%;
+height: 800px;
+background:  #FFF7D1;
+position: relative;
+}
+.container1 .left{
+    position: relative;
+    /* top: 200px;
+    left: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 760px;
+    height: 400px;
+    
+}
+
+.container1 .left .top div{
+    color: #132238;
+    /* Mono/Body/XXL/600 */
+    font-family: JetBrains Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 20px;
+}
+.container1 .left .top p{
+    color: #132238;
+    /* Mono/Display/01, 700 */
+    font-family: JetBrains Mono;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* margin-bottom: 40px; */
+    
+}
+.container1 .left .top .last{
+    margin-bottom: 40px;
+}
+
+
+.left .bottom button{
+    height: 64px;
+    color: #132238;
+font-family: JetBrains Mono;
+font-size: 16px;
+font-weight: 700;
+padding: 0 32px ;
+background:  #FFD91A;
+
+}
+.left .bottom button:first-child{
+    margin-right: 24px; ;
+}
+.left .bottom button:last-child{
+    background-color: white;
+    border-color: #FFD91A ;
+}
+.container1 .left .middle{
+    color: #132238;
+/* Mono/Body/XL/400 */
+font-family: JetBrains Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+margin-bottom: 40px;
+}
+.container1 .right{
+    background: url("../../../public/images/Image1.png"), lightgray -141.639px 8px / 140.822% 114.066% no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    width: 648px;
+height: 800px;
+/* position: absolute; */
+right: 188px;
+left: 1084px;
+bottom: 180px;
+top: 0px;
+
+}

@@ -1,0 +1,46 @@
+.college{
+    background: #132238;
+    display: flex;
+    justify-content:flex-end;
+
+}
+.college .left1{
+       font-family: JetBrains Mono;
+       color: #FFF;
+       margin-top: 50px ;
+    
+}
+.college .left1 p:nth-child(1){
+    color:  #FFD91A;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.college .left1 p:nth-child(2){
+    font-size: 32px;
+    font-weight: 400; 
+    margin-bottom: 50px;
+    
+}
+.college .left1 p:nth-child(3){
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.college .left1 p:nth-child(4){
+    color: #A5ACB5;
+font-size: 14px;
+font-weight: 500;
+text-transform: uppercase;
+
+}
+
+
+
+.college .right1{
+    background: url("../../../public/images/college.png");
+    width: 590px;
+height: 536px;
+margin-left: 82px;
+justify-content: flex-end;
+}
